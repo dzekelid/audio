@@ -1,5 +1,4 @@
 ---
----
 name: Rev
 description: Rev.com is a new breed of service provider. Like traditional vendors,
   we rely on a network of hand-picked freelancers. Unlike traditional vendors, we
@@ -45,6 +44,4 @@ maintainers:
 - FN: Kin Lane
   x-twitter: apievangelist
   email: info@apievangelist.com
-...
-
 ---
