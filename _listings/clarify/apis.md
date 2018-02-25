@@ -1,5 +1,4 @@
 ---
----
 name: Clarify
 description: Clarify makes what was said, searchable. As the world records more and
   more of its interactions, in more and more ways, it needs a new generation of tools
@@ -44,6 +43,4 @@ maintainers:
 - FN: Kin Lane
   x-twitter: apievangelist
   email: info@apievangelist.com
-...
-
 ---
