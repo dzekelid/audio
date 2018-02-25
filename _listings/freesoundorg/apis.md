@@ -1,5 +1,4 @@
 ---
----
 name: Freesound.org
 description: Freesound aims to create a huge collaborative database of audio snippets,
   samples, recordings, bleeps, ... released under Creative Commons licenses that allow
@@ -22,16 +21,6 @@ modified: "2018-02-24"
 url: https://raw.githubusercontent.com/streamdata-gallery/audio/master/_listings/freesoundorg/apis.yaml
 specificationVersion: "0.14"
 apis:
-- name: Freesound
-  description: 'Freesound aims to create a huge collaborative database of audio snippets,
-    samples, recordings, bleeps, '
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Freesound_project_website_logo.png
-  humanURL: ""
-  baseURL: https://www.freesound.org//apiv2
-  tags: Audio
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/audio/master/_listings/freesoundorg/search-text-get.md
 - name: Freesound
   description: 'Freesound aims to create a huge collaborative database of audio snippets,
     samples, recordings, bleeps, '
@@ -68,6 +57,4 @@ maintainers:
 - FN: Kin Lane
   x-twitter: apievangelist
   email: info@apievangelist.com
-...
-
 ---
