@@ -1,5 +1,4 @@
 ---
----
 name: Mixcloud
 description: Mixcloud is an online music streaming service that allows for the listening
   and distribution of radio shows, DJ mixes and podcasts, which are crowdsourced by
@@ -43,6 +42,4 @@ maintainers:
 - FN: Kin Lane
   x-twitter: apievangelist
   email: info@apievangelist.com
-...
-
 ---
