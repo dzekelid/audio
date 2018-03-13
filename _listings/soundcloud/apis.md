@@ -18,8 +18,8 @@ tags:
 - Audio
 - Audio
 - API LIfeycle
-created: "2018-03-10"
-modified: "2018-03-10"
+created: "2018-03-13"
+modified: "2018-03-13"
 url: https://raw.githubusercontent.com/streamdata-gallery/audio/master/_listings/soundcloud/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -33,7 +33,7 @@ apis:
   tags: Audio
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/audio/master/_listings/soundcloud/resolve-json-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/audio/master/_listings/soundcloud/tracks-json-get.md
 x-common:
 - type: x-base
   url: https://api.soundcloud.com
