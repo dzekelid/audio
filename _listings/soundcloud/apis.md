@@ -33,7 +33,7 @@ apis:
   tags: Audio
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/audio/master/_listings/soundcloud/users-user-id-groups-json-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/audio/master/_listings/soundcloud/users-user-id-playlists-json-get.md
 x-common:
 - type: x-base
   url: https://api.soundcloud.com
