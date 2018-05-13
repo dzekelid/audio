@@ -34,15 +34,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/audio/master/_listings/soundcloud/resolve-json-get.md
-- name: SoundCloud Get User Comments
-  description: Returns a collection of comments made by user id
+- name: SoundCloud Get User Followings
+  description: Returns a collection of users the user with user id is following
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Soundcloud-logo.jpg
   humanURL: http://soundcloud.com
   baseURL: https://api.soundcloud.com//
   tags: Audio
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/audio/master/_listings/soundcloud/users-user-id-comments-json-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/audio/master/_listings/soundcloud/users-user-id-followings-json-get.md
 x-common:
 - type: x-base
   url: https://api.soundcloud.com
