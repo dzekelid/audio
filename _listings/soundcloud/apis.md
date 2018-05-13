@@ -34,15 +34,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/audio/master/_listings/soundcloud/resolve-json-get.md
-- name: SoundCloud Get User Follower
-  description: Checks if the user with contact_id is a follower of the given user.
+- name: SoundCloud Get User Favorites
+  description: Returns a collection of tracks favorited by the user with user id
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Soundcloud-logo.jpg
   humanURL: http://soundcloud.com
   baseURL: https://api.soundcloud.com//
   tags: Audio
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/audio/master/_listings/soundcloud/users-user-id-followers-contact-id-json-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/audio/master/_listings/soundcloud/users-user-id-favorites-json-get.md
 x-common:
 - type: x-base
   url: https://api.soundcloud.com
