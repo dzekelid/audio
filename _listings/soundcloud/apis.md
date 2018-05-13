@@ -43,15 +43,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/audio/master/_listings/soundcloud/playlists-json-get.md
-- name: SoundCloud Get Playlist
-  description: Returns a playlist by playlist id
+- name: SoundCloud Get Groups
+  description: Returns a collection of groups
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Soundcloud-logo.jpg
   humanURL: http://soundcloud.com
   baseURL: https://api.soundcloud.com//
   tags: Audio
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/audio/master/_listings/soundcloud/playlists-playlist-id-json-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/audio/master/_listings/soundcloud/groups-json-get.md
 x-common:
 - type: x-base
   url: https://api.soundcloud.com
