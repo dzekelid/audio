@@ -34,15 +34,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/audio/master/_listings/soundcloud/resolve-json-get.md
-- name: SoundCloud Get My Favorites
-  description: Returns a collection of tracks favorited by the logged-in user
+- name: SoundCloud Update My Favorite Track
+  description: Adds the given track to the logged-in user's list of favorites.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Soundcloud-logo.jpg
   humanURL: http://soundcloud.com
   baseURL: https://api.soundcloud.com//
   tags: Audio
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/audio/master/_listings/soundcloud/me-favorites-json-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/audio/master/_listings/soundcloud/me-favorites-track-id-json-put.md
 x-common:
 - type: x-base
   url: https://api.soundcloud.com
