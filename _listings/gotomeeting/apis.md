@@ -7,45 +7,30 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/731-gotome
 x-kinRank: "7"
 x-alexaRank: "7422"
 tags: Audio
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/audio/master/_listings/gotomeeting/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Go To Webinar Get audio information
-  x-api-slug: go-to-webinar
+- name: Go To Webinar - Get audio information
+  x-api-slug: organizersorganizerkeywebinarswebinarkeyaudio-get
   description: Retrieves the audio/conferencing information for a specific webinar.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/731-gotomeeting.jpg
   humanURL: https://citrixonline.com
-  baseURL: https://api.citrixonline.com//G2W/rest//organizers/{organizerKey}/webinars/{webinarKey}/audio
-  tags: Organizers,OrganizerKey,Webinars,WebinarKey,Audio
+  baseURL: https://api.citrixonline.com//G2W/rest
+  tags: Office, Meetings, Collaboration, Video Conferencing, Video Conferencing, SaaS,
+    Technology, Enterprise, API Provider, Meetings, Profiles, Conferences, Relative
+    Data, Service API, Networks
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/audio/master/_listings/gotomeeting/organizersorganizerkeywebinarswebinarkeyaudio-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/audio/master/_listings/gotomeeting/organizersorganizerkeywebinarswebinarkeyaudio-get-openapi.md
-- name: Go To Webinar Update audio information
-  x-api-slug: go-to-webinar
-  description: Updates the audio/conferencing settings for a specific webinar
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/731-gotomeeting.jpg
-  humanURL: https://citrixonline.com
-  baseURL: https://api.citrixonline.com//G2W/rest//organizers/{organizerKey}/webinars/{webinarKey}/audio
-  tags: Organizers,OrganizerKey,Webinars,WebinarKey,Audio
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/audio/master/_listings/gotomeeting/organizersorganizerkeywebinarswebinarkeyaudio-post-openapi.md
-- name: Go To Webinar
-  x-api-slug: go-to-webinar
-  description: Citrix enables business mobility through the secure delivery of apps
-    and data to any device on any network.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/731-gotomeeting.jpg
-  humanURL: https://citrixonline.com
-  baseURL: https://api.citrixonline.com//G2W/rest
-  tags: Audio
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/audio/master/_listings/gotomeeting/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://google.url.shortener.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://gotomeeting.stack.network
 - type: x-base
   url: https://api.citrixonline.com
 - type: x-blog

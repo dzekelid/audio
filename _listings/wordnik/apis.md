@@ -11,38 +11,30 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2708-wordn
 x-kinRank: "8"
 x-alexaRank: "46540"
 tags: Audio
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/audio/master/_listings/wordnik/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Wordnik Fetches audio metadata for a word.
-  x-api-slug: wordnik
+- name: Wordnik - Fetches audio metadata for a word.
+  x-api-slug: word-jsonwordaudio-get
   description: The metadata includes a time-expiring fileUrl which allows reading
     the audio file directly from the API.  Currently only audio pronunciations from
     the American Heritage Dictionary in mp3 format are supported.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2708-wordnik.jpg
   humanURL: http://wordnik.com
-  baseURL: https://api.wordnik.com//v4//word.json/{word}/audio
-  tags: Words,Audio
+  baseURL: https://api.wordnik.com//v4
+  tags: Content, Dictionary, internet, Technology, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/audio/master/_listings/wordnik/word-jsonwordaudio-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/audio/master/_listings/wordnik/word-jsonwordaudio-get-openapi.md
-- name: Wordnik
-  x-api-slug: wordnik
-  description: The Wordnik API lets you request definitions, example sentences, spelling
-    suggestions, related words like synonyms and antonyms, phrases containing a given
-    word, word autocompletion, random words, words of the day, and much more.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2708-wordnik.jpg
-  humanURL: http://wordnik.com
-  baseURL: https://api.wordnik.com//v4
-  tags: Audio
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/audio/master/_listings/wordnik/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://wikipedia.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://wordnik.stack.network
 - type: x-crunchbase
   url: https://crunchbase.com/organization/wordnik
 - type: x-developer
