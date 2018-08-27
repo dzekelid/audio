@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: GoToMeeting
 x-complete: 1
@@ -19,4 +18,47 @@ produces:
 - application/json
 consumes:
 - application/json
----
+paths:
+  /organizers/{organizerKey}/webinars/{webinarKey}/audio:
+    get:
+      summary: Get audio information
+      description: Retrieves the audio/conferencing information for a specific webinar.
+      operationId: getAudioInformation
+      x-api-path-slug: organizersorganizerkeywebinarswebinarkeyaudio-get
+      parameters:
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Organizers
+      - OrganizerKey
+      - Webinars
+      - WebinarKey
+      - Audio
+    post:
+      summary: Update audio information
+      description: Updates the audio/conferencing settings for a specific webinar
+      operationId: updateAudioInformation
+      x-api-path-slug: organizersorganizerkeywebinarswebinarkeyaudio-post
+      parameters:
+      - in: body
+        name: body
+        description: The audio/conferencing settings
+        schema:
+          $ref: '#/definitions/holder'
+      - in: query
+        name: No Name
+      - in: query
+        name: notifyParticipants
+        description: Defines whether to send notifications to participants
+      responses:
+        200:
+          description: OK
+      tags:
+      - Organizers
+      - OrganizerKey
+      - Webinars
+      - WebinarKey
+      - Audio

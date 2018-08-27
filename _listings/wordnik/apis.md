@@ -11,8 +11,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2708-wordn
 x-kinRank: "8"
 x-alexaRank: "46540"
 tags: Audio
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/audio/master/_listings/wordnik/apis.md
 specificationVersion: "0.14"
 apis:

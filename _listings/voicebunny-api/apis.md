@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1210-voice
 x-kinRank: "7"
 x-alexaRank: "94247"
 tags: Audio
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/audio/master/_listings/voicebunny-api/apis.md
 specificationVersion: "0.14"
 apis: []
